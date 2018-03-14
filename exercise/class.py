@@ -15,6 +15,6 @@ class Student(object):
     else:
       return 'C'
 
-wangcong = Student('wangcong', 99)
-wangcong.print_score()
-print(wangcong.get_grade())
+geeker = Student('Tom', 99)
+geeker.print_score()
+print(geeker.get_grade())
